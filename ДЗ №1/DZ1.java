@@ -6,7 +6,7 @@ public class DZ1 {
     public static void main(String[] args) {
         String ans;
         ans = "y";
-        while (ans.equals("n") == false ) {
+        while (!ans.equals("n")) {
             Scanner sc = new Scanner(System.in);
             System.out.println("Введите целочисленное значение №1");
             String number1 = sc.nextLine();
