@@ -50,6 +50,8 @@ public class Car {
             System.out.println("Введите вес машины:");
             String result2 = sc.nextLine();
             int weigth = Integer.parseInt(result2);
+             
+           
 
             Car car = new Car(model, speed, weigth);
             System.out.println("Информация о машине:");
