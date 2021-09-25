@@ -23,7 +23,7 @@ public class DZ2 {
                 break;
             }
         }
-        if (cheak == true) {
+        if (cheak) {
             System.out.println("Введённое имя присутствует в массиве");
         }else{
             System.out.println("Введённое имя отсутствует в массиве");
