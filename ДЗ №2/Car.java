@@ -37,7 +37,7 @@ public class Car {
         String ans;
         ans = "y";
 
-        while (ans.equals("n") == false) {
+        while (!ans.equals("n")) {
 
             Scanner sc = new Scanner(System.in);
             System.out.println("Введите модель машины:");
