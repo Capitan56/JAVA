@@ -42,10 +42,12 @@ public class HW4_2 {
     public static void main(String[] args) {
         boolean check = false;
 
-        ArrayList<PlanetS> newPlanets = new ArrayList<>();
-        Map<String,ArrayList<PlanetS>> planets = new HashMap<>();
+        ArrayList<Integer> newPlanets = new ArrayList<>();
+        Map<String,ArrayList<Integer>> planets = new HashMap<>();
 
-        newPlanets.add(new PlanetS(123000, 126900, 1293333));
+        newPlanets.add(123000);
+        newPlanets.add(217379);
+        newPlanets.add(821837);
         planets.put("Земля", newPlanets);
 
         newPlanets.add(new PlanetS(176500, 100900, 1235433));
